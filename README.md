@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📗 Table of Contents](#-table-of-contents)
+  [🍿 Full Stack Test FE](#-full-stack-test-fe-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [📐 Design and Architecture](#-design-and-architecture)
+  - [🤔 What could be done differently](#-what-could-be-done-differently)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# 🍿 Full Stack Test FE <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Full Stack Test FE** This project is developed as part of the job application process with PSG. It utilizes a GraphQL API to store data in MongoDB and features a React frontend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+<summary>Programming Language</summary>
+  <ul>
+    <li><a href="https://www.typescriptlang.org/">JavaScript</a></li>
+  </ul>
 
-### `npm run build`
+  <summary>Frameworks & Libraries</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- LIVE DEM -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Live Demo <a name="live-demo"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Live Demo Link](https://fe/)
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Home Page**
+- **Login Page**
+- **Forms**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running, follow these steps:
 
-### Code Splitting
+- Create a local directory/folder where you can clone the project
+- Clone the project to your directory by running these commands.
+  - `git clone https://github.com/uchexm/fe-test.git`
+- `cd fe-test`
+- `npm install`
+- `npm start`
+- and navigate to http://localhost:3000/ from your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- A computer
+- Node
+- Npm
+- Browser
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Use this project as you wish as it is Licensed under MIT open Licenses
 
-### Advanced Configuration
+## 👥 Author <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- -👤 **Uchechi Nwaka**
 
-### Deployment
+- -- GitHub: [@uchexm](https://github.com/uchexm)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  -- LinkedIn: [@nwakauc](https://www.linkedin.com/in/nwakauc/)
 
-### `npm run build` fails to minify
+  -- Twiter [@nwakauc](https://twitter.com/Nwakauc)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Improve UI**
+- [ ] **Add CRUD functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📐 Design and Architecture<a name="design-and-architecture">
+
+The Full Stack Test FE project adopts a modular, component-based architecture, relying on React for the user interface. Bootstrap CSS styles the application, ensuring responsiveness and visual appeal.
+
+Data fetching is asynchronous, employing React hooks and GraphQL Mutations/Queries for server communication. This setup optimizes performance and user experience.
+
+The project structure emphasizes maintainability and scalability. Components, hooks, and utilities are logically organized, enhancing code readability and collaboration.
+</a>
+
+## 🤔 What could be done differently<a name="what-could-be-done-differently"></a>
+
+During the development of this Full Stack Test FE, one area where I recognize room for improvement is in enhancing the accessibility and user experience (UX) of the Frontend. While the current implementation focuses on functionality and performance, there's an opportunity to prioritize accessibility features and refine the UX to ensure a seamless and inclusive experience for all users.
+
+In future iterations, I aim to conduct thorough accessibility audits and usability testing to identify areas for improvement. This could involve optimizing keyboard navigation.
+
+By placing a stronger emphasis on accessibility and UX considerations, the Full Stack Test FE can better cater to diverse user needs and adhere to web accessibility standards, ultimately leading to a more inclusive and user-friendly application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/uchexm/fe-test/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly leave a ⭐
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the PSG for giving me this opportuniy.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
