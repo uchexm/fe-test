@@ -34,7 +34,7 @@
 <details>
 <summary>Programming Language</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">JavaScript</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 
   <summary>Frameworks & Libraries</summary>
@@ -44,13 +44,9 @@
   </ul>
 </details>
 
+# 🍿 Full Stack Test Back End <a name="about-project"></a>
+
 **Full Stack Test BE** is a Rails API that serves as database to the [Full Stack Test BE](https://github.com/uchexm/be-test) project.
-
-<!-- LIVE DEM -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://fe/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
