@@ -3,7 +3,7 @@ import { AuthContext } from "../context/authContext";
 import { useMutation } from "@apollo/client";
 import { gql } from 'graphql-tag';
 import { useNavigate } from "react-router-dom";
-import { LOAD_MOVIES } from "../components/movies";
+import { LOAD_MOVIES } from "./movies";
 
 const ADD_MOVIE = gql`
   mutation CreateMovie($movieInput: MovieInput) {

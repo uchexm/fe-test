@@ -25,7 +25,6 @@ function Login(props) {
   const [errors, setErrors] = useState([]);
 
   const loginUserCallback = () => {
-    console.log('Callback hit');
     loginUser();
   }
 
@@ -46,7 +45,7 @@ function Login(props) {
   });
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mx-auto" style={{ maxWidth: "400px" }}>
       <h3>Login</h3>
       <p>Register below to create an account!</p>
       <form onSubmit={onSubmit}>
