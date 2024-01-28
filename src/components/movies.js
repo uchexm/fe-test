@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useQuery } from "@apollo/client";
 import { gql } from 'graphql-tag';
 
-const LOAD_MOVIES = gql`
+export const LOAD_MOVIES = gql`
   query GetMovies {
     getMovies {
       name

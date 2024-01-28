@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from "../context/authContext";
 import Movies from '../components/movies';
+import AddMovie from './addMovie';
 
 function Homepage() {
   const { user, logout } = useContext(AuthContext);
@@ -10,9 +11,10 @@ function Homepage() {
     <div className="container mt-5">
       {user ? (
         <>
-          <h3>OUR LOVED MOVIE DATA</h3>
+          <h3>OUR ADDED MOVIE DATA</h3>
           <div> Here is a list of the awesome movies added by our users. </div>
           <Movies />
+          <AddMovie />
         </>
       ) : (
         <>
