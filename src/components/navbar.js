@@ -9,10 +9,8 @@ function Navbar() {
 
   const onLogout = () => {
     logout();
-    navigate('./');
+    navigate('/');
   }
-
-  console.log(user);
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,7 +26,7 @@ function Navbar() {
               user ?
                 <>
                   <li className="nav-item">
-                    <Link className="nav-link" onClick={onLogout} to="/logout">Logout</Link>
+                    <Link className="nav-link" onClick={onLogout} to="/">Logout</Link>
                   </li>
                 </>
 
