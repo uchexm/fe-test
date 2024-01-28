@@ -44,6 +44,8 @@
   </ul>
 </details>
 
+**Full Stack Test BE** is a Rails API that serves as database to the [Full Stack Test BE](https://github.com/uchexm/be-test) project.
+
 <!-- LIVE DEM -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -91,13 +93,11 @@ In order to run this project you need:
 
 ## 👥 Author <a name="authors"></a>
 
-- -👤 **Uchechi Nwaka**
+👤 **Uchechi Nwaka**
 
-- -- GitHub: [@uchexm](https://github.com/uchexm)
-
-  -- LinkedIn: [@nwakauc](https://www.linkedin.com/in/nwakauc/)
-
-  -- Twiter [@nwakauc](https://twitter.com/Nwakauc)
+- GitHub: [![Uchexm](https://img.shields.io/badge/-uchexm-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/demix007)
+- Twitter: [![Nwakauc](https://img.shields.io/badge/-nwakauc-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/nwakauc)
+- LinkedIn: [![Uchechi Nwaka](https://img.shields.io/badge/-nwakauc-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://linkedin.com/in/nwakauc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
