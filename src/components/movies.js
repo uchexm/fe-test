@@ -7,6 +7,7 @@ export const LOAD_MOVIES = gql`
     getMovies {
       name
       description
+      createdBy
     }
   }
 `;
@@ -25,14 +26,16 @@ function Movies() {
     <div>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error.message}</p>}
-      {movies.map((val, index) => (
+      <ul>
+        {movies.map((movie, index) => (
+          <li key={index}>
+            <strong>Movie Name: </strong><span>{movie.name}</span><br />
+            <strong>Description: </strong><span>{movie.description}</span><br />
+            <strong>Created By: </strong><span>{movie.createdBy}</span>
+          </li>
 
-        <li key={index}>
-          <strong>{val.name}</strong>: {val.description}
-        </li>
-
-      ))}
-
+        ))}
+      </ul>
     </div>
   );
 }
