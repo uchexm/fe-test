@@ -64,7 +64,7 @@
 
 ## Screenshot
 
-![Page screenshot](/public/sc.PNG "Page Screenshot")
+[Page screenshot](/public/sc.PNG "Page Screenshot")
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
